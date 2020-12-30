@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		042381D72595E73C00802B0B /* getdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042381D62595E73C00802B0B /* getdata.swift */; };
+		042ACBBD2599CA7E001B31BA /* create_ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042ACBBC2599CA7E001B31BA /* create_ItemViewController.swift */; };
+		042ACBC02599CF81001B31BA /* itemlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042ACBBF2599CF81001B31BA /* itemlist.swift */; };
 		0468D1BB2595B028005371E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468D1BA2595B028005371E7 /* AppDelegate.swift */; };
 		0468D1BD2595B028005371E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468D1BC2595B028005371E7 /* SceneDelegate.swift */; };
 		0468D1C22595B028005371E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0468D1C02595B028005371E7 /* Main.storyboard */; };
@@ -22,11 +24,10 @@
 		A2C835DABA0438A6ADD511F6 /* Pods_Crud_alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09275A9504E82A16BB681FFB /* Pods_Crud_alamofire.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXBuildRule section */
-/* End PBXBuildRule section */
-
 /* Begin PBXFileReference section */
 		042381D62595E73C00802B0B /* getdata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getdata.swift; sourceTree = "<group>"; };
+		042ACBBC2599CA7E001B31BA /* create_ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = create_ItemViewController.swift; sourceTree = "<group>"; };
+		042ACBBF2599CF81001B31BA /* itemlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemlist.swift; sourceTree = "<group>"; };
 		0468D1B72595B028005371E7 /* Crud_alamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crud_alamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0468D1BA2595B028005371E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0468D1BC2595B028005371E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +97,7 @@
 				0468D1D72595B0F1005371E7 /* LoginViewController.swift */,
 				0468D1D52595B0F1005371E7 /* RegisterViewController.swift */,
 				0468D1D62595B0F1005371E7 /* ViewController.swift */,
+				042ACBBC2599CA7E001B31BA /* create_ItemViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -107,6 +109,7 @@
 				0468D1E72595B374005371E7 /* Models.swift */,
 				0468D1E82595B374005371E7 /* Register.swift */,
 				042381D62595E73C00802B0B /* getdata.swift */,
+				042ACBBF2599CF81001B31BA /* itemlist.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -135,7 +138,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0468D1CB2595B02B005371E7 /* Build configuration list for PBXNativeTarget "Crud_alamofire" */;
 			buildPhases = (
-				B8B1B275FBDACD2EEBAAC43A /* [CP] Build Pods Frameworks */,
 				1B256F7C24AFAE686C6717BF /* [CP] Check Pods Manifest.lock */,
 				0468D1B32595B028005371E7 /* Sources */,
 				0468D1B42595B028005371E7 /* Frameworks */,
@@ -197,32 +199,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-
-	B8B1B275FBDACD2EEBAAC43A /* [CP] Build Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Build Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.
-
-\"${PROJECT_FILE_PATH}/xcuserdata/.xcassets/xcassets.folder\" false";			
-		};
-	
-
-	
-
-	
 		1B256F7C24AFAE686C6717BF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -272,7 +248,9 @@
 				042381D72595E73C00802B0B /* getdata.swift in Sources */,
 				0468D1DA2595B0F1005371E7 /* LoginViewController.swift in Sources */,
 				0468D1D92595B0F1005371E7 /* ViewController.swift in Sources */,
+				042ACBBD2599CA7E001B31BA /* create_ItemViewController.swift in Sources */,
 				0468D1BB2595B028005371E7 /* AppDelegate.swift in Sources */,
+				042ACBC02599CF81001B31BA /* itemlist.swift in Sources */,
 				0468D1E92595B374005371E7 /* Login.swift in Sources */,
 				0468D1BD2595B028005371E7 /* SceneDelegate.swift in Sources */,
 				0468D1D82595B0F1005371E7 /* RegisterViewController.swift in Sources */,

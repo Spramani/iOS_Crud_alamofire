@@ -37,14 +37,10 @@ class ViewController: UIViewController {
                 }
                 self.getmodels = [getmodeldats]
                 self.tblViews.reloadData()
-                
-                
             }
         }
         print(dataes)
     }
-
-
 }
 extension ViewController:UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -58,8 +54,6 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
         cells.second.text = getdata.description
         return cells
     }
-    
-
 }
 
 
