@@ -2,20 +2,24 @@ PODS:
   - Alamofire (5.4.0)
   - AlamofireImage (4.1.0):
     - Alamofire (~> 5.1)
+  - BSImagePicker (3.3.1)
 
 DEPENDENCIES:
   - Alamofire (~> 5.2)
   - AlamofireImage (~> 4.1)
+  - BSImagePicker (~> 3.1)
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - AlamofireImage
+    - BSImagePicker
 
 SPEC CHECKSUMS:
   Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
   AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  BSImagePicker: 0fe04b574d4d6b81093785d2af6c26227efc8428
 
-PODFILE CHECKSUM: 68793a4c29b6c09708099890fdae4098d5fd5610
+PODFILE CHECKSUM: 626a9029da2bac7fcdfe258d29dc8aea29ec83e3
 
 COCOAPODS: 1.9.3

@@ -8,5 +8,6 @@ target 'Crud_alamofire' do
   # Pods for Crud_alamofire
 	pod 'Alamofire', '~> 5.2'
 	pod 'AlamofireImage', '~> 4.1'
+  pod "BSImagePicker", "~> 3.1"
 
 end
